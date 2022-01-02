@@ -20,3 +20,4 @@
 
 1. [Hello world CLI using `flag` package](2/flag_cli.go)
 2. [Using go-flags](2/go_flags/main.go)
+3. [Using cli.go](2/cli_go/main.go)
