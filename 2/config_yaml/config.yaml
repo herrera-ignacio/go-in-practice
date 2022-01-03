@@ -1,0 +1,3 @@
+# Simple YAML configuration
+enabled: true
+path: /usr/local
