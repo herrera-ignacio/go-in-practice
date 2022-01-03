@@ -19,9 +19,19 @@
 ## 2. A solid foundation
 
 1. ["Hello" CLI w/`flag`](2/flag_cli.go)
-2. ["Hello" CLI w/go-flags](2/go_flags/main.go)
-3. ["Hello" CLI w/cli.go](2/cli_go/main.go)
-4. [Count Up/Down w/cli.go](2/count_cli/main.go)
+2. ["Hello" CLI w/`go-flags`](2/go_flags/main.go)
+3. ["Hello" CLI w/`cli.go`](2/cli_go/main.go)
+4. [Count Up/Down w/`cli.go`](2/count_cli/main.go)
 5. [Using JSON config](2/config_json/main.go)
 6. [Using YAML config](2/config_yaml/main.go)
 7. [Using INI config](2/config_ini/main.go)
+8. [Using env variables](2/env_config.go)
+9. [Callback shutdown URL (anti-pattern)](2/callback_shutdown.go)
+10. [Graceful shutdown using manners](2/manners_shutdown/main.go)
+11. [Resolve URLs with handler functions](2/multiple_handlers.go)
+12. [Resolve URLs using `path`](2/path_handlers/main.go)
+13. [Resolve URLs using RegExp](2/regex_handlers.go)
+14. Faster routing
+    1. [github.com/julienschmidt/httprouter](https://github.com/julienschmidt/httprouter)
+    2. [github.com/gorilla/mux](https://github.com/gorilla/mux)
+    3. [github.com/bmizerany/pat](https://github.com/bmizerany/pat)
