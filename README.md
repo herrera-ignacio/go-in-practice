@@ -18,6 +18,7 @@
 
 ## 2. A solid foundation
 
-1. [Hello world CLI using `flag` package](2/flag_cli.go)
-2. [Using go-flags](2/go_flags/main.go)
-3. [Using cli.go](2/cli_go/main.go)
+1. ["Hello" CLI w/`flag`](2/flag_cli.go)
+2. ["Hello" CLI w/go-flags](2/go_flags/main.go)
+3. ["Hello" CLI w/cli.go](2/cli_go/main.go)
+4. [Count Up/Down w/cli.go](2/count_cli/main.go)
