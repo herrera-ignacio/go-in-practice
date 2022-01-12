@@ -3,6 +3,9 @@
 - [Go In Practice](#go-in-practice)
   - [1. Noteworthy aspects of Go](#1-noteworthy-aspects-of-go)
   - [2. A solid foundation](#2-a-solid-foundation)
+  - [3. Concurrency](#3-concurrency)
+    - [Objectives](#objectives)
+    - [Examples](#examples)
 
 ## 1. Noteworthy aspects of Go
 
@@ -35,3 +38,17 @@
     1. [github.com/julienschmidt/httprouter](https://github.com/julienschmidt/httprouter)
     2. [github.com/gorilla/mux](https://github.com/gorilla/mux)
     3. [github.com/bmizerany/pat](https://github.com/bmizerany/pat)
+
+## 3. Concurrency
+
+### Objectives
+
+* Understanding Go's concurrency model
+* Using goroutines for concurrent processing
+* Locking and waiting
+* Using channels for communication between goroutines
+* Strategically closing channels
+
+### Examples
+
+1. [Using a goroutine to run a task](./3/goroutine.go)
