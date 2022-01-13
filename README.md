@@ -5,6 +5,7 @@
   - [2. A solid foundation](#2-a-solid-foundation)
   - [3. Concurrency](#3-concurrency)
     - [Objectives](#objectives)
+    - [Techniques](#techniques)
     - [Examples](#examples)
 
 ## 1. Noteworthy aspects of Go
@@ -49,6 +50,13 @@
 * Using channels for communication between goroutines
 * Strategically closing channels
 
+### Techniques
+
+1. [Using goroutines closures](3/techniques/closures.md)
+2. [Waiting for goroutines](3/techniques/waiting.md)
+
 ### Examples
 
-1. [Using a goroutine to run a task](./3/goroutine.go)
+1. [Using a goroutine to run a task](3/goroutine.go)
+2. [Anonymous functions & closures](3/anonymous_function.go)
+3. [Gzip compression tool](3/gzip_compression.go)
