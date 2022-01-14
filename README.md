@@ -60,3 +60,4 @@
 1. [Using a goroutine to run a task](3/goroutine.go)
 2. [Anonymous functions & closures](3/anonymous_function.go)
 3. [Gzip compression tool](3/gzip_compression.go)
+4. [Gzip compression with wait group](3/gzip_wait_group.go)
