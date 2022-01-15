@@ -54,6 +54,7 @@
 
 1. [Using goroutines closures](3/techniques/closures.md)
 2. [Waiting for goroutines](3/techniques/waiting.md)
+3. [Locking with a mutex](3/techniques/mutex.md)
 
 ### Examples
 
@@ -61,3 +62,6 @@
 2. [Anonymous functions & closures](3/anonymous_function.go)
 3. [Gzip compression tool](3/gzip_compression.go)
 4. [Gzip compression with wait group](3/gzip_wait_group.go)
+5. [Word counter](3/word_counter)
+   1. [Word counter w/race condition](3/word_counter/word_counter_race_condition.go)
+   2. [Word counter w/locks](3/word_counter/word_counter_locks.go)
