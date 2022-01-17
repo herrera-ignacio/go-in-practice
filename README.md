@@ -56,6 +56,7 @@
 2. [Waiting for goroutines](3/techniques/waiting.md)
 3. [Locking with a mutex](3/techniques/mutex.md)
 4. [Using multiple channels](3/techniques/multiple_channels.md)
+5. [Closing channels](3/techniques/closing-channels.md)
 
 ### Examples
 
@@ -68,3 +69,5 @@
    2. [Word counter w/locks](3/word_counter/word_counter_locks.go)
 6. [Using multiple channels](3/multiple_channels.go)
 7. [Pausing with `Sleep` and `After`](3/pausing.go)
+8. [Improper channel close](3/improper_channel_close.go)
+9. [Close from sender](3/close_from_sender.go)
