@@ -94,8 +94,12 @@
 > An *error* indicates that a particular task couldn't be completed successfully. A *panic* indicates that a severe event ocurred, probably as a result of a programmer error.
 
 1. [Minimize the nils](4/techniques/minimize-nils.md)
+2. [Custom error types](4/techniques/custom-error-types.md)
+3. [Error variables](4/techniques/error_variables.md)
 
 ### Examples
 
 1. [Returning an error](4/returning_error.go)
 2. [Relying on good error handling](4/relying_on_good_error_handling.go)
+3. [Parse error](4/parse_error.go)
+4. [Error variables](4/error_variables.go)
