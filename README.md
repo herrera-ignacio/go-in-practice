@@ -44,10 +44,10 @@
 
 ### Objectives
 
-* Understanding Go's concurrency model
-* Using goroutines for concurrent processing
-* Locking and waiting
-* Using channels for communication between goroutines
+* Understanding Go's CSP-based concurrency model
+* Concurrent processing with goroutines
+* Locking and waiting with the `sync` package and *buffered channels*.
+* Communication between goroutines using channels
 * Strategically closing channels
 
 ### Techniques
@@ -57,6 +57,7 @@
 3. [Locking with a mutex](3/techniques/mutex.md)
 4. [Using multiple channels](3/techniques/multiple_channels.md)
 5. [Closing channels](3/techniques/closing-channels.md)
+6. [Locking with buffered channels](3/techniques/buffered_channels.md)
 
 ### Examples
 
