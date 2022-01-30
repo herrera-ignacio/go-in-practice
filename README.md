@@ -71,3 +71,4 @@
 7. [Pausing with `Sleep` and `After`](3/pausing.go)
 8. [Improper channel close](3/improper_channel_close.go)
 9. [Close from sender](3/close_from_sender.go)
+10. [Close using a close channel](3/close_channel.go)
