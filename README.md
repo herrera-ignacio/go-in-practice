@@ -7,6 +7,10 @@
     - [Objectives](#objectives)
     - [Techniques](#techniques)
     - [Examples](#examples)
+  - [4. Handling errors and panics](#4-handling-errors-and-panics)
+    - [Objectives](#objectives-1)
+    - [Techniques](#techniques-1)
+    - [Examples](#examples-1)
 
 ## 1. Noteworthy aspects of Go
 
@@ -73,3 +77,25 @@
 8. [Improper channel close](3/improper_channel_close.go)
 9. [Close from sender](3/close_from_sender.go)
 10. [Close using a close channel](3/close_channel.go)
+
+## 4. Handling errors and panics
+
+### Objectives
+
+* Go idioms for errors
+* Providing meaningful data with errors
+* Adding your own error types
+* Working with panics
+* Transforming panics into errors
+* Panics & goroutines
+
+### Techniques
+
+> An *error* indicates that a particular task couldn't be completed successfully. A *panic* indicates that a severe event ocurred, probably as a result of a programmer error.
+
+1. [Minimize the nils](4/techniques/minimize-nils.md)
+
+### Examples
+
+1. [Returning an error](4/returning_error.go)
+2. [Relying on good error handling](4/relying_on_good_error_handling.go)
