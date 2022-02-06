@@ -11,6 +11,10 @@
     - [Objectives](#objectives-1)
     - [Techniques](#techniques-1)
     - [Examples](#examples-1)
+  - [5. Debugging and testing](#5-debugging-and-testing)
+    - [Objectives](#objectives-2)
+    - [Techniques](#techniques-2)
+    - [Examples](#examples-2)
 
 ## 1. Noteworthy aspects of Go
 
@@ -100,7 +104,6 @@
 5. [Recovering from panics](4/techniques/recovering_from_panics.md)
 6. [Trapping panics on goroutines](4/tecnniques/trapping_panics_on_goroutines.md)
 
-
 ### Examples
 
 1. [Returning an error](4/returning_error.go)
@@ -110,3 +113,23 @@
 5. [Error and panic](4/error_and_panic.go)
 6. [Recovering from panics](4/recovering_from_panics.go)
 7. [Handle panics on a goroutine](4/handle_panics_on_goroutine.go)
+
+## 5. Debugging and testing
+
+### Objectives
+
+* Capturing debugging information
+* Using a a logger
+* Working with stack traces
+* Writing unit tests
+* Creating acceptance tests
+* Detecting race conditions
+* Running performance tests
+
+### Techniques
+
+1. [Logging to an arbitrary writer](5/techniques/logging_to_writer.md)
+
+### Examples
+
+1. [Logging to a file](5/logging_to_file.go)
