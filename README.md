@@ -82,12 +82,12 @@
 
 ### Objectives
 
-* Go idioms for errors
+* Understand Go's patterns for error handling
+* Using error variables and custom error types
 * Providing meaningful data with errors
-* Adding your own error types
-* Working with panics
+* Handling panics
 * Transforming panics into errors
-* Panics & goroutines
+* Error handling on goroutines
 
 ### Techniques
 
@@ -96,6 +96,10 @@
 1. [Minimize the nils](4/techniques/minimize-nils.md)
 2. [Custom error types](4/techniques/custom-error-types.md)
 3. [Error variables](4/techniques/error_variables.md)
+4. [Issuing panics](4/techniques/panic.md)
+5. [Recovering from panics](4/techniques/recovering_from_panics.md)
+6. [Trapping panics on goroutines](4/tecnniques/trapping_panics_on_goroutines.md)
+
 
 ### Examples
 
@@ -103,3 +107,6 @@
 2. [Relying on good error handling](4/relying_on_good_error_handling.go)
 3. [Parse error](4/parse_error.go)
 4. [Error variables](4/error_variables.go)
+5. [Error and panic](4/error_and_panic.go)
+6. [Recovering from panics](4/recovering_from_panics.go)
+7. [Handle panics on a goroutine](4/handle_panics_on_goroutine.go)
