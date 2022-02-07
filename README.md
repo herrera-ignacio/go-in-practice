@@ -133,6 +133,8 @@
 3. [Handling back pressure in network logging](5/techniques/back_pressure.md)
 4. [Logging to the syslog](5/techniques/logging_to_syslog.md)
 5. [Capturing stack traces](5/techniques/stack_traces.md)
+6. [Using interfaces for mocking or stubbing](5/techniques/interfaces_for_testing.md)
+7. [Verifying interfaces with canary tests](5/techniques/canary_tests.md)
 
 ### Examples
 
@@ -143,3 +145,4 @@
 5. [Logging to system log](5/logger_to_system_log.go)
 6. [Capturing stack traces with `runtime/debug`](5/capture_stack_trace.go)
 6. [Capturing stack traces with `Stack` function](5/capture_stack_trace.go)
+7. [Hello test](5/hello_test)
