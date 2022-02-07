@@ -129,7 +129,17 @@
 ### Techniques
 
 1. [Logging to an arbitrary writer](5/techniques/logging_to_writer.md)
+2. [Logging to a network resource](5/techniques/logging_to_network.md)
+3. [Handling back pressure in network logging](5/techniques/back_pressure.md)
+4. [Logging to the syslog](5/techniques/logging_to_syslog.md)
+5. [Capturing stack traces](5/techniques/stack_traces.md)
 
 ### Examples
 
 1. [Logging to a file](5/logging_to_file.go)
+2. [Network log client](5/network_log_client.go)
+3. [UDP-based logging](5/udp_logging.go)
+4. [Logging to syslog](5/logger_to_syslog.go)
+5. [Logging to system log](5/logger_to_system_log.go)
+6. [Capturing stack traces with `runtime/debug`](5/capture_stack_trace.go)
+6. [Capturing stack traces with `Stack` function](5/capture_stack_trace.go)
