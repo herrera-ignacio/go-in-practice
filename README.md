@@ -135,6 +135,7 @@
 5. [Capturing stack traces](5/techniques/stack_traces.md)
 6. [Using interfaces for mocking or stubbing](5/techniques/interfaces_for_testing.md)
 7. [Verifying interfaces with canary tests](5/techniques/canary_tests.md)
+8. [Generative testing](5/techniques/generative_testing.md)
 
 ### Examples
 
