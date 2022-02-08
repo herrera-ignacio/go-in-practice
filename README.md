@@ -147,3 +147,4 @@
 6. [Capturing stack traces with `runtime/debug`](5/capture_stack_trace.go)
 6. [Capturing stack traces with `Stack` function](5/capture_stack_trace.go)
 7. [Hello test](5/hello_test)
+8. [Generative test](5/generative_test/)
