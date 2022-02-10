@@ -1,5 +1,9 @@
 package main
 
+/**
+Run with `go test -bench .`
+*/
+
 import (
 	"bytes"
 	"testing"

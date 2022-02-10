@@ -137,6 +137,7 @@
 7. [Verifying interfaces with canary tests](5/techniques/canary_tests.md)
 8. [Generative testing](5/techniques/generative_testing.md)
 9. [Benchmarking Go code](5/techniques/benchmarking.md)
+10. [Parallel benchmarks](5/techniques/parallel_benchmark.md)
 
 ### Examples
 
@@ -149,3 +150,6 @@
 6. [Capturing stack traces with `Stack` function](5/capture_stack_trace.go)
 7. [Hello test](5/hello_test)
 8. [Generative test](5/generative_test/)
+9. [Benchmarking](5/benchmarking)
+10. [Two templates benchmark](5/two_templates_benchmark)
+11. [Parallel benchmarks](5/parallel_benchmarks)
