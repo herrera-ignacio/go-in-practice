@@ -119,12 +119,12 @@
 ### Objectives
 
 * Capturing debugging information
-* Using a a logger
-* Working with stack traces
-* Writing unit tests
-* Creating acceptance tests
+* Using a logger (e.g., network)
+* Capturing stack traces
+* Writing unit tests.
+* Benchmarking and acceptance tests
+* Performing basic generative testing
 * Detecting race conditions
-* Running performance tests
 
 ### Techniques
 
@@ -138,6 +138,7 @@
 8. [Generative testing](5/techniques/generative_testing.md)
 9. [Benchmarking Go code](5/techniques/benchmarking.md)
 10. [Parallel benchmarks](5/techniques/parallel_benchmark.md)
+11. [Detecting race conditions](5/techniques/detecting_race_conditions.md)
 
 ### Examples
 
