@@ -15,7 +15,7 @@
     - [Objectives](#objectives-2)
     - [Techniques](#techniques-2)
     - [Examples](#examples-2)
-  - [HTML and email template patterns](#html-and-email-template-patterns)
+  - [6. HTML and email template patterns](#6-html-and-email-template-patterns)
     - [Objectives](#objectives-3)
     - [Techniques](#techniques-3)
     - [Example](#example)
@@ -159,25 +159,33 @@
 10. [Two templates benchmark](5/two_templates_benchmark)
 11. [Parallel benchmarks](5/parallel_benchmarks)
 
-## HTML and email template patterns
+## 6. HTML and email template patterns
 
 ### Objectives
 
-* Adding functionality inside templates
+* Extending the functionality within templates with custom functions and pipping commands.
+* Caching & buffering templates
+* Template inheritance
 * Nesting templates
-* Using template inheritance
-* Rendering objects to HTML
-* Using email templates
+* Mapping templates to objects, such as a user template for a user object, and rolling the templates up into a page-level output.
+* Generating email output with templates
 
 ### Techniques
 
 1. [Extending templates with functions](6/techniques/template_functions.md)
 2. [Caching parsed templates](6/techniques/caching_parsed.md)
 3. [Handling template execution failures](6/techniques/handling_template_failures.md)
+4. [Nested templates](6/techniques/nested_templates.md)
+5. [Template Inheritance](6/techniques/template_inheritance.md)
+6. [Mapping data types to templates](6/techniques/mapping_data_types.md)
+7. [Generating email from templates](6/techniques/generating_email_from_templates.md)
 
 ### Example
 
 1. [Simple HTML template](6/simple_template)
-2. [Template functions](6/template_functions/)
-3. [Cache parsed templates](6/cache_template/)
-4. [Buffer templates for error handling](6/buffered_template/)
+2. [Template functions](6/template_functions)
+3. [Cache parsed templates](6/cache_template)
+4. [Buffer templates for error handling](6/buffered_template)
+5. [Template inheritance](6/template_inheritance)
+6. [Mapping data types to templates](6/mapping_data_types)
+7. [Email template](6/email_template)
