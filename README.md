@@ -19,6 +19,14 @@
     - [Objectives](#objectives-3)
     - [Techniques](#techniques-3)
     - [Example](#example)
+  - [7. Serving and receiving assets and forms](#7-serving-and-receiving-assets-and-forms)
+    - [Objectives](#objectives-4)
+    - [Techniques](#techniques-4)
+    - [Example](#example-1)
+  - [Working with web services](#working-with-web-services)
+    - [Objectives](#objectives-5)
+    - [Techniques](#techniques-5)
+    - [Examples](#examples-3)
 
 ## 1. Noteworthy aspects of Go
 
@@ -189,3 +197,54 @@
 5. [Template inheritance](6/template_inheritance)
 6. [Mapping data types to templates](6/mapping_data_types)
 7. [Email template](6/email_template)
+
+## 7. Serving and receiving assets and forms
+
+### Objectives
+
+* Uploading files to users from a Go server.
+* Go helper functions for quick and easy access to form submissions.
+* Form parsing.
+* Multipart form handling.
+
+### Techniques
+
+1. [Serving subdirectories](7/techniques/subdirectories.md)
+2. [File server with custom error pages](7/techniques/custom_error_pages.md)
+3. [Caching file server](7/techniques/caching_file_server.md)
+4. [Embedding files in a binary](7/techniques/embedding_files.md)
+5. [Serving from an alternative location](7/techniques/serving_from_alternative_location.md)
+6. [Accessing multiple values for a form field](7/techniques/multiple_values_for_form_field.md)
+7. [Uploading a single file](7/techniques/uploading_single_file.md)
+8. [Uploading multiple files](7/techniques/uploading_multiple_files.md)
+9. [Verify uploaded file is allowed type](7/techniques/verify_type.md)
+10. [Incrementally saving a file (mutlipart data)](7/techniques/incrementally_saving_file.md)
+
+### Example
+
+1. [http package file serving](7/http_package_file_serving.go)
+2. [Serve file with custom handler](7/servefile.go)
+3. [Serve subdirectories with `http.Dir` handler](7/serving_subdirectory/httpdir.go)
+3. [Serve subdirectories with `path` handler](7/serving_subdirectory/path.go)
+4. [File not found error handler](7/file_not_found.go)
+5. [Cache serving](7/caching_file_server.go)
+6. [Embedding files in a binary](7/embedded_files.go)
+7. [Serving from alternative location](7/http_package_file_serving.go)
+8. [Parsing a simple form from response](7/parsing_form_from_response.go)
+9. [Parsing multiple values from form](7/parsing_multiple_values.go)
+10. [A form with a single-value file-upload field](7/single_upload)
+11. [Multiple file uploads](7/multiple_uploads)
+
+## Working with web services
+
+### Objectives
+
+### Techniques
+
+1. [Detecting timeouts](8/techniques/detecting_timeouts.md)
+
+### Examples
+
+1. [A simple HTTP get](8/simple_get.go)
+2. [Delete request with default http client](8/simple_delete)
+3. [Simple custom HTTP client](8/custom_http_client.go)
