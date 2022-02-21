@@ -13,7 +13,7 @@ How can network timeouts be reliably detected?
 
 When timeouts occur, a small variety of errors occurs. Check the error for each of these cases to see if it was a timeout.
 
-> [See example](../detecting_timeout.go)
+> [See example](../detectng_timeout.go)
 
 ## Discussion
 

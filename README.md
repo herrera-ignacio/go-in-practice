@@ -242,9 +242,20 @@
 ### Techniques
 
 1. [Detecting timeouts](8/techniques/detecting_timeouts.md)
+2. [Timing out and resuming with HTTP](8/techniques/timing_out_and_resuming.md)
+3. [Custom HTTP error passing](8/techniques/custom_http_error_parsing.md)
+4. [Reading custom errors](8/techniques/reading_custom_errors.md)
+5. [Parsing JSON without knowing the schema](8/techniques/parsing_json_no_schema.md)
+6. [API version in the URL](8/techniques/api_versioning.md)
 
 ### Examples
 
 1. [A simple HTTP get](8/simple_get.go)
 2. [Delete request with default http client](8/simple_delete)
 3. [Simple custom HTTP client](8/custom_http_client.go)
+4. [Detecting timeouts and resuming with HTTP](8/download_with_retries.go)
+5. [Passing an error over HTTP](8/passing_errors_over_http.go)
+6. [Custom JSON error response](8/custom_json_error_res.go)
+7. [Convert HTTP response to an error](8/convert_http_response_to_err.go)
+8. [Parsing JSON](8/parsing_json.go)
+9. [Parsing JSON with no schema](8/parsing_json_no_schema.go)
