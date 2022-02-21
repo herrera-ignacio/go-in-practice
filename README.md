@@ -239,6 +239,12 @@
 
 ### Objectives
 
+* Detecting network timeouts.
+* Resuming downloads when timeouts occur.
+* Parsing errors between API endpoints and client requestors.
+* Parsing JSON, even when you don't know the schema ahead of time.
+* Versioning REST APIs with url and content-type.
+
 ### Techniques
 
 1. [Detecting timeouts](8/techniques/detecting_timeouts.md)
@@ -247,6 +253,7 @@
 4. [Reading custom errors](8/techniques/reading_custom_errors.md)
 5. [Parsing JSON without knowing the schema](8/techniques/parsing_json_no_schema.md)
 6. [API version in the URL](8/techniques/api_versioning.md)
+7. [API version in content type](8/techniques/api_versioning_content_type.md)
 
 ### Examples
 
@@ -259,3 +266,6 @@
 7. [Convert HTTP response to an error](8/convert_http_response_to_err.go)
 8. [Parsing JSON](8/parsing_json.go)
 9. [Parsing JSON with no schema](8/parsing_json_no_schema.go)
+10. [API versioning in the URL](8/api_versioning_url.go)
+11. [API versioning in the content type](8/api_versioning_content_type.go)
+12. [Request API with content type versioning](8/request_api_versioned_with_ct.go)
