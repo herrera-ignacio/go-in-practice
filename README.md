@@ -27,6 +27,10 @@
     - [Objectives](#objectives-5)
     - [Techniques](#techniques-5)
     - [Examples](#examples-3)
+  - [9. Using the cloud](#9-using-the-cloud)
+    - [Objectives](#objectives-6)
+    - [Techniques](#techniques-6)
+    - [Examples](#examples-4)
 
 ## 1. Noteworthy aspects of Go
 
@@ -269,3 +273,28 @@
 10. [API versioning in the URL](8/api_versioning_url.go)
 11. [API versioning in the content type](8/api_versioning_content_type.go)
 12. [Request API with content type versioning](8/request_api_versioned_with_ct.go)
+
+## 9. Using the cloud
+
+### Objectives
+
+* Introducing cloud computing.
+* Working with multiple cloud providers.
+* Gathering information on the cloud host.
+* Compiling to various operating systems and architectures.
+* Monitoring the Go runtime in an application.
+
+### Techniques
+
+1. [Working with multiple cloud providers](9/techniques/multiple_cloud_providers.md)
+2. [Cleanly handling cloud provider errors](9/techniques/cloud_provider_errors.md)
+3. [Gathering information on the host](9/techniques/gathering_information_on_the_host.md)
+4. [Detecting dependencies](9/techniques/detecting_dependencies.md)
+5. [Cross-compiling](9/techniques/cross_compiling.go)
+
+### Examples
+
+1. [Simple file storage](9/simple_file_storage.go)
+2. [Handling cloud provider errors](9/handling_errors.go)
+3. [Gathering information on the host](9/host_information.go)
+4. [Detecting dependencies](9/detecting_dependencies.go)
