@@ -31,6 +31,10 @@
     - [Objectives](#objectives-6)
     - [Techniques](#techniques-6)
     - [Examples](#examples-4)
+  - [10. Communication between cloud services](#10-communication-between-cloud-services)
+    - [Objectives](#objectives-7)
+    - [Techniques](#techniques-7)
+    - [Examples](#examples-5)
 
 ## 1. Noteworthy aspects of Go
 
@@ -299,3 +303,28 @@
 3. [Gathering information on the host](9/host_information.go)
 4. [Detecting dependencies](9/detecting_dependencies.go)
 5. [Monitoring the Go runtime](9/monitoring_go_runtime.go)
+
+## 10. Communication between cloud services
+
+### Objectives
+
+* Communications in a microservice architecture.
+* Reusing connections to improve performance by avoiding repeated TCP slow-start, congestion-control ramp-ups and connection negotiations.
+* Faster JSON mashaling and unmarshaling that avoids extra time spent reflecting.
+* Communicating over RPC using gRPC.
+
+### Techniques
+
+1. [Reusing connections](10/techniques/reusing_connections.md)
+2. [Faster JSON marshal and unmarshal](10/techniques/faster_json.md)
+3. [Using protocol buffers](10/techniques/protocol_buffers.md)
+4. [Communicating over RPC with protocol buffers](10/techniques/rpc.md)
+
+### Examples
+
+1. [Faster JSON marshal and unmarshal](10/faster_json.go)
+2. [Protocol buffer file](10/protocol_buffer_user.go)
+3. [Protocol buffer server](10/user.proto)
+4. [Protocol buffer client](10/protocol_buffer_client.go)
+5. [RPC proto file](10/hello.proto)
+6. [gRPC server](10/grpc_server.go)

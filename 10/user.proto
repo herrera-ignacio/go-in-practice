@@ -1,0 +1,8 @@
+// Protocol buffers have package names used to avoid naming collisions.
+package user10
+
+message User {
+	required string name = 1;
+	required int32 id = 2;
+	optional string email = 3;
+}
