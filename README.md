@@ -278,11 +278,10 @@
 
 ### Objectives
 
-* Introducing cloud computing.
-* Working with multiple cloud providers.
-* Gathering information on the cloud host.
+* Working with multiple cloud providers avoiding vendor lock-in.
+* Gathering information about the host.
 * Compiling to various operating systems and architectures.
-* Monitoring the Go runtime in an application.
+* Monitoring the Go runtime to detect issues and details about a running application.
 
 ### Techniques
 
@@ -291,6 +290,7 @@
 3. [Gathering information on the host](9/techniques/gathering_information_on_the_host.md)
 4. [Detecting dependencies](9/techniques/detecting_dependencies.md)
 5. [Cross-compiling](9/techniques/cross_compiling.go)
+6. [Monitoring the Go runtime](9/techniques/monitoring_go_runtime.md)
 
 ### Examples
 
@@ -298,3 +298,4 @@
 2. [Handling cloud provider errors](9/handling_errors.go)
 3. [Gathering information on the host](9/host_information.go)
 4. [Detecting dependencies](9/detecting_dependencies.go)
+5. [Monitoring the Go runtime](9/monitoring_go_runtime.go)
