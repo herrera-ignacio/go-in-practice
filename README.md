@@ -35,6 +35,10 @@
     - [Objectives](#objectives-7)
     - [Techniques](#techniques-7)
     - [Examples](#examples-5)
+  - [11. Reflection and code generation](#11-reflection-and-code-generation)
+    - [Objectives](#objectives-8)
+    - [Techniques](#techniques-8)
+    - [Examples](#examples-6)
 
 ## 1. Noteworthy aspects of Go
 
@@ -328,3 +332,35 @@
 4. [Protocol buffer client](10/protocol_buffer_client.go)
 5. [RPC proto file](10/hello.proto)
 6. [gRPC server](10/grpc_server.go)
+
+## 11. Reflection and code generation
+
+### Objectives
+
+* Use kinds to identify critical details about types.
+* Determine at runtime whether a type implements an interface.
+* Access struct fields at runtime.
+* Work with annotations.
+* Parse tags within struct annotations.
+* Write marshal and unmarshal functions.
+* Use `go generate`.
+* Write Go templates that generate Go code.
+
+### Techniques
+
+1. [Switching based on type and kind](11/techniques/switching_based_on_type_and_kind.md)
+2. [Discovering whether a value implements an interface](11/techniques/checking_for_interface.md)
+3. [Accessing fields on a struct](11/techniques/accessing_fields_on_a_struct.md)
+4. [Processing tags on a struct](11/techniques/processing_tags.md)
+5. [Generating code with go generate](11/techniques/go-generate.md)
+
+### Examples
+
+1. [Sum with type switch](11/sum_with_type_switch.go)
+2. [Sum with Kind switch](11/sum_with_kind_switch.go)
+3. [Checking and converting a type](11/checking_and_converting_type.go)
+4. [Checking for an interface](11/check_for_interface.go)
+5. [Recursively examining a value](11/examining_value.go)
+6. [Simple JSON struct](11/json_struct.go)
+7. [Processing tags](11/processing_tags.go)
+8. [The queue template](11/queue_template.go) & [desired output](11/simple_queue.go)
