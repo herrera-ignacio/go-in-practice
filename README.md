@@ -23,7 +23,7 @@
     - [Objectives](#objectives-4)
     - [Techniques](#techniques-4)
     - [Example](#example-1)
-  - [Working with web services](#working-with-web-services)
+  - [8. Working with web services](#8-working-with-web-services)
     - [Objectives](#objectives-5)
     - [Techniques](#techniques-5)
     - [Examples](#examples-3)
@@ -76,11 +76,11 @@
 
 ### Objectives
 
-* Understanding Go's CSP-based concurrency model
-* Concurrent processing with goroutines
-* Locking and waiting with the `sync` package and *buffered channels*.
-* Communication between goroutines using channels
-* Strategically closing channels
+- Understanding Go's CSP-based concurrency model
+- Concurrent processing with goroutines
+- Locking and waiting with the `sync` package and *buffered channels*.
+- Communication between goroutines using channels
+- Strategically closing channels
 
 ### Techniques
 
@@ -110,12 +110,12 @@
 
 ### Objectives
 
-* Understand Go's patterns for error handling
-* Using error variables and custom error types
-* Providing meaningful data with errors
-* Handling panics
-* Transforming panics into errors
-* Error handling on goroutines
+- Understand Go's patterns for error handling
+- Using error variables and custom error types
+- Providing meaningful data with errors
+- Handling panics
+- Transforming panics into errors
+- Error handling on goroutines
 
 ### Techniques
 
@@ -142,13 +142,13 @@
 
 ### Objectives
 
-* Capturing debugging information
-* Using a logger (e.g., network)
-* Capturing stack traces
-* Writing unit tests.
-* Benchmarking and acceptance tests
-* Performing basic generative testing
-* Detecting race conditions
+- Capturing debugging information
+- Using a logger (e.g., network)
+- Capturing stack traces
+- Writing unit tests.
+- Benchmarking and acceptance tests
+- Performing basic generative testing
+- Detecting race conditions
 
 ### Techniques
 
@@ -183,12 +183,12 @@
 
 ### Objectives
 
-* Extending the functionality within templates with custom functions and pipping commands.
-* Caching & buffering templates
-* Template inheritance
-* Nesting templates
-* Mapping templates to objects, such as a user template for a user object, and rolling the templates up into a page-level output.
-* Generating email output with templates
+- Extending the functionality within templates with custom functions and pipping commands.
+- Caching & buffering templates
+- Template inheritance
+- Nesting templates
+- Mapping templates to objects, such as a user template for a user object, and rolling the templates up into a page-level output.
+- Generating email output with templates
 
 ### Techniques
 
@@ -214,10 +214,10 @@
 
 ### Objectives
 
-* Uploading files to users from a Go server.
-* Go helper functions for quick and easy access to form submissions.
-* Form parsing.
-* Multipart form handling.
+- Uploading files to users from a Go server.
+- Go helper functions for quick and easy access to form submissions.
+- Form parsing.
+- Multipart form handling.
 
 ### Techniques
 
@@ -237,25 +237,25 @@
 1. [http package file serving](7/http_package_file_serving.go)
 2. [Serve file with custom handler](7/servefile.go)
 3. [Serve subdirectories with `http.Dir` handler](7/serving_subdirectory/httpdir.go)
-3. [Serve subdirectories with `path` handler](7/serving_subdirectory/path.go)
-4. [File not found error handler](7/file_not_found.go)
-5. [Cache serving](7/caching_file_server.go)
-6. [Embedding files in a binary](7/embedded_files.go)
-7. [Serving from alternative location](7/http_package_file_serving.go)
-8. [Parsing a simple form from response](7/parsing_form_from_response.go)
-9. [Parsing multiple values from form](7/parsing_multiple_values.go)
-10. [A form with a single-value file-upload field](7/single_upload)
-11. [Multiple file uploads](7/multiple_uploads)
+4. [Serve subdirectories with `path` handler](7/serving_subdirectory/path.go)
+5. [File not found error handler](7/file_not_found.go)
+6. [Cache serving](7/caching_file_server.go)
+7. [Embedding files in a binary](7/embedded_files.go)
+8. [Serving from alternative location](7/http_package_file_serving.go)
+9. [Parsing a simple form from response](7/parsing_form_from_response.go)
+10. [Parsing multiple values from form](7/parsing_multiple_values.go)
+11. [A form with a single-value file-upload field](7/single_upload)
+12. [Multiple file uploads](7/multiple_uploads)
 
-## Working with web services
+## 8. Working with web services
 
 ### Objectives
 
-* Detecting network timeouts.
-* Resuming downloads when timeouts occur.
-* Parsing errors between API endpoints and client requestors.
-* Parsing JSON, even when you don't know the schema ahead of time.
-* Versioning REST APIs with url and content-type.
+- Detecting network timeouts.
+- Resuming downloads when timeouts occur.
+- Parsing errors between API endpoints and client requestors.
+- Parsing JSON, even when you don't know the schema ahead of time.
+- Versioning REST APIs with url and content-type.
 
 ### Techniques
 
@@ -286,10 +286,10 @@
 
 ### Objectives
 
-* Working with multiple cloud providers avoiding vendor lock-in.
-* Gathering information about the host.
-* Compiling to various operating systems and architectures.
-* Monitoring the Go runtime to detect issues and details about a running application.
+- Working with multiple cloud providers avoiding vendor lock-in.
+- Gathering information about the host.
+- Compiling to various operating systems and architectures.
+- Monitoring the Go runtime to detect issues and details about a running application.
 
 ### Techniques
 
@@ -312,10 +312,10 @@
 
 ### Objectives
 
-* Communications in a microservice architecture.
-* Reusing connections to improve performance by avoiding repeated TCP slow-start, congestion-control ramp-ups and connection negotiations.
-* Faster JSON mashaling and unmarshaling that avoids extra time spent reflecting.
-* Communicating over RPC using gRPC.
+- Communications in a microservice architecture.
+- Reusing connections to improve performance by avoiding repeated TCP slow-start, congestion-control ramp-ups and connection negotiations.
+- Faster JSON mashaling and unmarshaling that avoids extra time spent reflecting.
+- Communicating over RPC using gRPC.
 
 ### Techniques
 
@@ -337,14 +337,14 @@
 
 ### Objectives
 
-* Use kinds to identify critical details about types.
-* Determine at runtime whether a type implements an interface.
-* Access struct fields at runtime.
-* Work with annotations.
-* Parse tags within struct annotations.
-* Write marshal and unmarshal functions.
-* Use `go generate`.
-* Write Go templates that generate Go code.
+- Use kinds to identify critical details about types.
+- Determine at runtime whether a type implements an interface.
+- Access struct fields at runtime.
+- Work with annotations.
+- Parse tags within struct annotations.
+- Write marshal and unmarshal functions.
+- Use `go generate`.
+- Write Go templates that generate Go code.
 
 ### Techniques
 
